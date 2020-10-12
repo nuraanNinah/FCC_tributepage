@@ -1,39 +1,51 @@
 body{
-    text-align:center;
-    background-color:#66bfbf;
-    display: block;
-  }
-  
-  h1 {
-    font-family: Times New Roman;
-    font-size:45px;
-  }
-  h2 {
-    color: #301934;
-    font-size: 20px;
-  }
-  
-  #image{
-    height:200px;
-    max-width: 100%;
-  }
-  
-  #image-caption {
-    font-family: Verdana;
-    text-align:center;
-  }
-  
-  p{
-    font-family: Verdana;
-    font-size:15px;
-    text-align:left;
-    margin-left:2%;
-    margin-right:2%;
-    margin-bottom:2%;
-  }
-  
-  .tribute-link
-  {
-    color: blue;
-    font-size:20px;  
-  }
+  text-align:center;
+  background-color:#66bfbf;
+  display: block;
+}
+
+h1 {
+  font-family: Times New Roman;
+  font-size:45px;
+}
+h2 {
+  color: #301934;
+  font-size: 20px;
+}
+
+#image {
+width: 100%;
+height: auto;
+max-width: 625px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+#image-caption {
+  font-family: Verdana;
+  text-align:center;
+}
+
+p{
+  font-family: Verdana;
+  font-size:15px;
+  text-align:left;
+  margin-left:2%;
+  margin-right:2%;
+  margin-bottom:2%;
+}
+
+.tribute-link
+{
+  color: blue;
+  font-size:20px;  
+}
+
+footer {
+  font-size:20px;  
+  left: 0;
+  bottom: 10px;
+  width: 100%;  
+  text-align: center;
+}
